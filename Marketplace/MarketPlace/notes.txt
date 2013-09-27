@@ -1,0 +1,12 @@
+FTP
+Domain  physiks.netii.net
+Username    a1402541
+Password    ******
+
+
+zymic
+Address: ftp://tommarket.zxq.net
+User: tommarket_zxq
+pass: Sears123!
+Port: 21
+

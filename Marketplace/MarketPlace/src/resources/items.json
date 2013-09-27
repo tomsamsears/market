@@ -1,0 +1,502 @@
+[
+  {
+    "NameCat":"Gadgets & Gifts:",
+    "PictureLink":"",
+    "Sku":"",
+    "Retail":"",
+    "WebPage":"",
+    "SearsCost":"",
+    "UPC":"",
+    "SPM":""
+  },
+  {
+    "NameCat":"Wireless Weather Forecaster",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"683219",
+    "Retail":"$49.99",
+    "WebPage":"http://www.brookstone.com/wireless-weather-forecaster",
+    "SearsCost":"$39.99 ",
+    "UPC":"883594030437",
+    "SPM":"SPM462402414"
+  },
+  {
+    "NameCat":"TimeSmart? Self-Setting Projection Clock",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"650218",
+    "Retail":"$59.99 ",
+    "WebPage":"http://www.brookstone.com/timesmart-self-setting-projection-clock",
+    "SearsCost":"$47.99 ",
+    "UPC":"883594028885",
+    "SPM":"SPM462414714"
+  },
+  {
+    "NameCat":"Ultrasonic Jewelry Cleaner and DVD Cleaner",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"606376",
+    "Retail":"$49.99 ",
+    "WebPage":"http://www.brookstone.com/ultrasonic-jewelry-cleaner-dvd-cleaners",
+    "SearsCost":"$39.99 ",
+    "UPC":"883594020162",
+    "SPM":""
+  },
+  {
+    "NameCat":"Automatic Tie Rack",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"636050",
+    "Retail":"$49.99 ",
+    "WebPage":"http://www.brookstone.com/motorized-tie-rack-2",
+    "SearsCost":"$39.99 ",
+    "UPC":"883594024627",
+    "SPM":""
+  },
+  {
+    "NameCat":"HD Video Pen",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"747003",
+    "Retail":"$79.99 ",
+    "WebPage":"http://www.brookstone.com/hd-video-spy-pen",
+    "SearsCost":"$63.99 ",
+    "UPC":"883594033216",
+    "SPM":""
+  },
+  {
+    "NameCat":"Pocket Projector Slim",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"842364",
+    "Retail":"$199.99 ",
+    "WebPage":"http://www.brookstone.com/25-lumen-pocket-projector-slim",
+    "SearsCost":"$159.99 ",
+    "UPC":"883594041006",
+    "SPM":"SPM7529039911"
+  },
+  {
+    "NameCat":"Scanner Mouse",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"817873",
+    "Retail":"$49.99 ",
+    "WebPage":"http://www.brookstone.com/scanner-mouse",
+    "SearsCost":"$39.99 ",
+    "UPC":"883594037719",
+    "SPM":""
+  },
+  {
+    "NameCat":"Rover 2.0 App-Controlled Wireless Spy Tank",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"792593",
+    "Retail":"$149.99 ",
+    "WebPage":"http://www.brookstone.com/rover-20-app-controlled-spy-tank",
+    "SearsCost":"$112.49 ",
+    "UPC":"883594035319",
+    "SPM":""
+  },
+  {
+    "NameCat":"Sand by Brookstone (Large)",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"845812",
+    "Retail":"$19.99 ",
+    "WebPage":"http://www.brookstone.com/kinetic-sand-by-brookstone",
+    "SearsCost":"$15.99 ",
+    "UPC":"883594041884",
+    "SPM":""
+  },
+  {
+    "NameCat":"Sandbox",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"849675",
+    "Retail":"$19.99 ",
+    "WebPage":"to be launched",
+    "SearsCost":"$15.99 ",
+    "UPC":"TBD",
+    "SPM":""
+  },
+  {
+    "NameCat":"Bar & Grill:",
+    "PictureLink":"",
+    "Sku":"",
+    "Retail":"",
+    "WebPage":"",
+    "SearsCost":"",
+    "UPC":"",
+    "SPM":""
+  },
+  {
+    "NameCat":"Grill Alert Talking Remote Meat Thermometer",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"798314",
+    "Retail":"$69.99 ",
+    "WebPage":"http://www.brookstone.com/grill-alert-talking-remote-meat-thermometers",
+    "SearsCost":"$55.99 ",
+    "UPC":"883594035876",
+    "SPM":"SPM7366593404"
+  },
+  {
+    "NameCat":"Handle-Mount Grill Light",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"798392",
+    "Retail":"$39.99 ",
+    "WebPage":"http://www.brookstone.com/clip-on-grill-lights-handle-mount",
+    "SearsCost":"$31.99 ",
+    "UPC":"883594035890",
+    "SPM":"SPM730249514"
+  },
+  {
+    "NameCat":"Always Perfect Chef's Fork with Digital Meat Thermometer",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"798333",
+    "Retail":"$29.99 ",
+    "WebPage":"http://www.brookstone.com/always-perfect-digital-meat-thermometers-fork",
+    "SearsCost":"$23.99 ",
+    "UPC":"883594035883",
+    "SPM":""
+  },
+  {
+    "NameCat":"Motorized Grill Brush with Steam Cleaning Power",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"798313",
+    "Retail":"$29.99 ",
+    "WebPage":"http://www.brookstone.com/motorized-grill-brush-with-steam",
+    "SearsCost":"$23.99 ",
+    "UPC":"883594035869",
+    "SPM":""
+  },
+  {
+    "NameCat":"n?ICE Cubes Stainless Steel Drink Chillers - Set of 6",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"746419",
+    "Retail":"$24.99 ",
+    "WebPage":"http://www.brookstone.com/reusable-ice-cubes",
+    "SearsCost":"$19.99 ",
+    "UPC":"883594033049",
+    "SPM":""
+  },
+  {
+    "NameCat":"Automatic Wine Opener with Foil Cutter",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"672451",
+    "Retail":"$39.99 ",
+    "WebPage":"http://www.brookstone.com/automatic-wine-opener-foil-cutter",
+    "SearsCost":"$31.99 ",
+    "UPC":"883594030260",
+    "SPM":""
+  },
+  {
+    "NameCat":"Connoisseur's Compact Wine Opener",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"511048",
+    "Retail":"$39.99 ",
+    "WebPage":"http://www.brookstone.com/Connoisseurs-Compact-Wine-Opener",
+    "SearsCost":"$31.99 ",
+    "UPC":"400005110481",
+    "SPM":""
+  },
+  {
+    "NameCat":"Aero? Wine Aerator",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"822837",
+    "Retail":"$49.99 ",
+    "WebPage":"http://www.brookstone.com/aero-full-bottle-wine-aerator",
+    "SearsCost":"$39.99 ",
+    "UPC":"883594038297",
+    "SPM":""
+  },
+  {
+    "NameCat":"Wireless Audio & iPad:",
+    "PictureLink":"",
+    "Sku":"",
+    "Retail":"",
+    "WebPage":"",
+    "SearsCost":"",
+    "UPC":"",
+    "SPM":""
+  },
+  {
+    "NameCat":"Outdoor Wireless Speaker and Dock",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"656736",
+    "Retail":"$169.99 ",
+    "WebPage":"http://www.brookstone.com/indoor-outdoor-wireless-speakers",
+    "SearsCost":"$135.99 ",
+    "UPC":"883594030161",
+    "SPM":""
+  },
+  {
+    "NameCat":"Big Blue? Studio Wireless Bluetooth Speaker\n(Black & Red)\n",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"733673, 748731",
+    "Retail":"$169.99 ",
+    "WebPage":"http://www.brookstone.com/big-blue-wireless-bluetooth-speaker",
+    "SearsCost":"$135.99 ",
+    "UPC":"883594032110, 883594033162",
+    "SPM":""
+  },
+  {
+    "NameCat":"Big Blue? Live Wireless Bluetooth Speaker\n(Black & White)\n",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"734328, 764315",
+    "Retail":"$99.99 ",
+    "WebPage":" http://www.brookstone.com/big-blue-live-bluetooth-wireless-speaker",
+    "SearsCost":"$79.99 ",
+    "UPC":"883594032103, 883594033834",
+    "SPM":""
+  },
+  {
+    "NameCat":"Bluetooth? Mobile Mini Wireless Speaker\n(Black, Red & Plum)\n",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"838481, 838483, 838482",
+    "Retail":"$59.99 ",
+    "WebPage":"http://www.brookstone.com/mini-bluetooth-speaker",
+    "SearsCost":"$47.99 ",
+    "UPC":"883594039621, 883594039638, 883594039645",
+    "SPM":""
+  },
+  {
+    "NameCat":"Bop? Bluetooth? Speaker\n(Black, Grey, Pink, Blue)\n",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"840046, 840043, 840044, TBD",
+    "Retail":"$29.99 ",
+    "WebPage":"http://www.brookstone.com/bop-bluetooth-speaker",
+    "SearsCost":"$23.99 ",
+    "UPC":"883594040283, 883594040252, 883594040269",
+    "SPM":""
+  },
+  {
+    "NameCat":"Bluetooth? Keyboard Pro with Leather Case for iPad? Tablets\n(Black & Distressed Brown)\n\n",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"783385, 783395",
+    "Retail":"$149.99 ",
+    "WebPage":"http://www.brookstone.com/bluetooth-keyboard-pro-case-for-ipad",
+    "SearsCost":"$119.99 ",
+    "UPC":"883594034350, 883594034374",
+    "SPM":""
+  },
+  {
+    "NameCat":"Bluetooth Keyboard Pro for iPad mini Tablet\n(Black & Distressed Brown)\n",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"839111, 839112",
+    "Retail":"$99.99 ",
+    "WebPage":"http://www.brookstone.com/bluetooth-keyboard-pro-for-ipad-mini-tablet",
+    "SearsCost":"$79.99 ",
+    "UPC":"883594039799, 883594039805",
+    "SPM":""
+  },
+  {
+    "NameCat":"Sleep/Comfort:",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"",
+    "Retail":"",
+    "WebPage":"",
+    "SearsCost":"",
+    "UPC":"",
+    "SPM":""
+  },
+  {
+    "NameCat":"Nap? Bed Blanket\n(King & Queen)\n",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"809350, 809347",
+    "Retail":"$79.99, $89.99",
+    "WebPage":"http://www.brookstone.com/nap-blanket",
+    "SearsCost":"$63.99, $71.99",
+    "UPC":"883594037023, 883594037009",
+    "SPM":""
+  },
+  {
+    "NameCat":"Nap? Quilted Throw Blanket\n(Plum, Grey, Coffee)\n",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"849726, 849733, 849722",
+    "Retail":"$59.99 ",
+    "WebPage":"http://www.brookstone.com/nap-quilted-throw-blanket",
+    "SearsCost":"$47.99 ",
+    "UPC":"883594042133, 883594042461, 883594042171",
+    "SPM":""
+  },
+  {
+    "NameCat":"Nap? Quilted Pillow \n(Plum, Grey, Coffee)\n",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"849671, 849672, 849670",
+    "Retail":"$24.99 ",
+    "WebPage":"http://www.brookstone.com/nap-quilted-pillow",
+    "SearsCost":"$19.99 ",
+    "UPC":"883594042393, 883594042409, 883594042386",
+    "SPM":""
+  },
+  {
+    "NameCat":"Bed Wedge Pillow",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"633859",
+    "Retail":"$99.99 ",
+    "WebPage":"http://www.brookstone.com/bed-wedge-pillow-support-cushion_8372225_2",
+    "SearsCost":"$79.99 ",
+    "UPC":"883594023477",
+    "SPM":""
+  },
+  {
+    "NameCat":"Tranquil Moments? Sleep Sound Therapy System",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"589796",
+    "Retail":"$129.99 ",
+    "WebPage":"http://www.brookstone.com/tranquil-moments-sound-machines-for-sleep",
+    "SearsCost":"$103.99 ",
+    "UPC":"883594014239",
+    "SPM":""
+  },
+  {
+    "NameCat":"Massage/Personal Care:",
+    "PictureLink":"",
+    "Sku":"",
+    "Retail":"",
+    "WebPage":"",
+    "SearsCost":"",
+    "UPC":"",
+    "SPM":""
+  },
+  {
+    "NameCat":"Compact Personal Massager",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"822083",
+    "Retail":"$59.99 ",
+    "WebPage":"http://www.brookstone.com/compact-personal-massager-2",
+    "SearsCost":"$47.99 ",
+    "UPC":"883594038280",
+    "SPM":"SPM462497014"
+  },
+  {
+    "NameCat":"Mini USB Personal Massager",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"792450",
+    "Retail":"$49.99 ",
+    "WebPage":"http://www.brookstone.com/mini-usb-personal-massager",
+    "SearsCost":"$39.99 ",
+    "UPC":"883594035340",
+    "SPM":""
+  },
+  {
+    "NameCat":"Shiatsu Foot Massager with Heat",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"839379",
+    "Retail":"$249.99 ",
+    "WebPage":"http://www.brookstone.com/shiatsu-foot-massagers-with-heat",
+    "SearsCost":"$199.99 ",
+    "UPC":"883594040047",
+    "SPM":""
+  },
+  {
+    "NameCat":"Heated Aqua-Jet Foot Spa",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"728219",
+    "Retail":"$129.99 ",
+    "WebPage":"http://www.brookstone.com/aqua-jet-foot-spa",
+    "SearsCost":"$103.99 ",
+    "UPC":"883594033025",
+    "SPM":""
+  },
+  {
+    "NameCat":"i-need? Shiatsu Seat Topper with Heat",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"680454",
+    "Retail":"$159.99 ",
+    "WebPage":"http://www.brookstone.com/SHIATSU-SEAT-TOPPER-WITH-HEAT_10629633_2",
+    "SearsCost":"$127.99 ",
+    "UPC":"883594029783",
+    "SPM":""
+  },
+  {
+    "NameCat":"MAX Percussion Massager",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"585539",
+    "Retail":"$99.99 ",
+    "WebPage":"http://www.brookstone.com/max-performance-percussion-massager",
+    "SearsCost":"$79.99 ",
+    "UPC":"883594012679",
+    "SPM":""
+  },
+  {
+    "NameCat":"Active Sport Handheld Massager",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"672469",
+    "Retail":"$69.99 ",
+    "WebPage":"http://www.brookstone.com/active-sport-handheld-massager_10629889_2",
+    "SearsCost":"$55.99 ",
+    "UPC":"883594029776",
+    "SPM":""
+  },
+  {
+    "NameCat":"iNeed Lumbar Massage Cushion",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"760026",
+    "Retail":"$69.99 ",
+    "WebPage":"http://www.brookstone.com/ineed-lumbar-massage-pillow",
+    "SearsCost":"$55.99 ",
+    "UPC":"883594033643",
+    "SPM":"SPM1904843014"
+  },
+  {
+    "NameCat":"iNeed Neck and Shoulder Pro Massager with Heat (Black)",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"647123",
+    "Retail":"$99.99 ",
+    "WebPage":"http://www.brookstone.com/ineed-neck-and-shoulder-pro-massager-with-heat",
+    "SearsCost":"$79.99 ",
+    "UPC":"883594027109",
+    "SPM":""
+  },
+  {
+    "NameCat":"Duo Personal Groomer",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"806030",
+    "Retail":"$39.99 ",
+    "WebPage":"http://www.brookstone.com/duo-personal-groomer-nose-and-ear-trimmer",
+    "SearsCost":"$31.99 ",
+    "UPC":"883594036408",
+    "SPM":""
+  },
+  {
+    "NameCat":"BioSense Memory Foam Orthopedic Seat",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"547554",
+    "Retail":"$49.99 ",
+    "WebPage":"http://www.brookstone.com/NapForm-Orthopedic-Seat-Blue",
+    "SearsCost":"$39.99 ",
+    "UPC":"883594024313",
+    "SPM":"SPM730251114"
+  },
+  {
+    "NameCat":"Towel Warmer",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"647156",
+    "Retail":"$89.99 ",
+    "WebPage":"http://www.brookstone.com/oversized-towel-warmer",
+    "SearsCost":"$71.99 ",
+    "UPC":"883594027819",
+    "SPM":""
+  },
+  {
+    "NameCat":"Pure-Ion Pro Air Purifier",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"630285",
+    "Retail":"$299.99 ",
+    "WebPage":"http://www.brookstone.com/pure-ion-pro-air-cleaner",
+    "SearsCost":"$239.99 ",
+    "UPC":"883594023408",
+    "SPM":""
+  },
+  {
+    "NameCat":"MiniMax? Tower Desk Fan",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"639559",
+    "Retail":"$49.99 ",
+    "WebPage":"http://www.brookstone.com/fan-tower-desk-compact-airflow",
+    "SearsCost":"$39.99 ",
+    "UPC":"883594025891",
+    "SPM":""
+  },
+  {
+    "NameCat":"Cool It? Personal Fan\n(Red, Black, Blue)\n",
+    "PictureLink":"http://www.brookstone.com/webassets/product_images/700x700/",
+    "Sku":"854201, 854200, 842431",
+    "Retail":"$19.99 ",
+    "WebPage":"http://www.brookstone.com/cool-it-personal-fan",
+    "SearsCost":"$15.99 ",
+    "UPC":"883594043833, 883594043826, 883594041181",
+    "SPM":""
+  }
+]
