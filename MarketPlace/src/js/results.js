@@ -15,9 +15,9 @@ $.ajax({
     }
 });
 
-
 // Load items //
 function pageReady(){
+	//$('#container').empty();
 	$.ajax({
 	  url: "resources/items.json",
 	  cache: false,
@@ -25,12 +25,11 @@ function pageReady(){
 	  crossDomain: true,
 	  mimeType: "application/j-son;charset=UTF-8",
 	  success: function(data){
-		  var newJson = {};
+		  var newJson = {}; // need new object for nested objects
 		  var category = "";
 		  $.each(data, function(i, item) {
 			  if(item.NameCat.trim() && !item.Retail.trim() && !item.UPC.trim()){ //signifies category
-				  //create new array
-				  if(category.trim()){
+				  if(category.trim()){ //if current row is category
 					  console.log('number of keys for ' + category + ': ' + Object.keys(newJson[category]).length);
 				  }
 				  newJson[item.NameCat.trim()] = {};
@@ -46,41 +45,56 @@ function pageReady(){
 		  console.log('number of categories: ' + Object.keys(newJson).length);
 		  
 		  //parse items
-		  if(GetUrlValue('category').trim() == 'All'){
+		  if(!GetUrlValue('category')){
+			  myItems = data;
+		  }
+		  else if(GetUrlValue('category').trim() == 'All'){
 			  myItems = data;
 		  } else {
 			  var cat = getObjectByIndex(categories, GetUrlValue('category').trim());
 			  console.log('looking at category: ' + cat);
 			  myItems = newJson[cat];
 		  }
-		  $.each(myItems, function(i, item) {
-			  // we are hitting an item if it has a name, price, and code
-		    if(item.NameCat.trim() && item.Retail.trim() && item.UPC.trim()){
-		    	$('#test').append(createItemFromTemplate(item,template));
-		    }
-	      });
+		  
+		  addItemsToDom(myItems);
+		  attachClickToItemsInDom();
 		  
 		  searchEnabled = true;
-		  console.log('number of items: ' + $('#test').children().length);
+		  console.log('number of items: ' + $('#container').children().length);
 		  console.log('Search enabled');
 		  
-		  $('.spm').each(function(i, item){
-			  var location = "http://sywkapp302p.prod.ch3.s.com:8180/sears_selfcheckout/productdetails.do?fromPage=search&bucketSource=Online&partNumber="+ $(item).attr('id');
-			  $(item).parentsUntil('li').bind('tap click', function(){
-				  window.location = location;
-			  });
-		  });
-
+		  if(GetUrlValue('search')){
+			  $("#search").val(GetUrlValue('search').trim())
+			  search();
+		  }
 	  },
 	  error: function(e, xhr){
 	     alert('an error has occurred, we apologize for the inconvenience');
 	  }
 	});
 }
+
+function addItemsToDom(items){
+	$.each(items, function(i, item) {
+		  // we are hitting an item if it has a name, price, and code
+	    if(item.NameCat.trim() && item.Retail.trim() && item.UPC.trim()){
+	    	$('#container').append(createItemFromTemplate(item,template));
+	    }
+    });
+}
     
+function attachClickToItemsInDom(){
+	$('.spm').each(function(i, item){
+		  var location = "http://sywkapp302p.prod.ch3.s.com:8180/sears_selfcheckout/productdetails.do?fromPage=search&bucketSource=Online&partNumber="+ $(item).attr('id');
+		  $(item).parentsUntil('li').bind('tap click', function(){
+			  window.location = location;
+		  });
+	});
+}
+
 function createItemFromTemplate(item,template){
 	var data = {
-	 name : item.NameCat.replace('?',' '),
+ 	 name : item.NameCat.replace('?',' '),
 	 image : createImageForItem(item),
 	 retailPrice : item.Retail,
 	 searsPrice : item.SearsCost,
@@ -114,7 +128,11 @@ $.expr[":"].contains = $.expr.createPseudo(function(arg) {
 });
 
 function search(){ 
-    $('#message').hide();
+	
+	$('#message').hide();
+	
+	//local search - a search within the DOM
+	
 	searchTerm = $("#search").val().trim();
 	searchTerm2 = $("#search").val().trim().split(' ');
 	
@@ -130,13 +148,41 @@ function search(){
                 
         if(results.length == 0){
             console.log('No results found');
-            $('#message').show(); 
             $('#message').text('No results found for ' + searchTerm);
+            $('#message').show(); 
         }
 	}
 	else {
 		console.log('search is disabled, items might not be loaded');
 	}
+	
+	//global search
+	    //a search which requires a new page load
+	$.ajax({
+		  url: "resources/items.json",
+		  cache: false,
+		  dataType: "json",
+		  crossDomain: true,
+		  mimeType: "application/j-son;charset=UTF-8",
+		  success: function(data){
+			  var newJson = {}; // need new object for nested objects
+			  var category = "";
+			  $.each(data, function(i, item) {
+				  if(item.NameCat.trim() && !item.Retail.trim() && !item.UPC.trim()){ //signifies category
+					  if(category.trim()){ //if current row is category
+						  console.log('number of keys for ' + category + ': ' + Object.keys(newJson[category]).length);
+					  }
+					  newJson[item.NameCat.trim()] = {};
+					  category = item.NameCat.trim();
+					  categories.push(item.NameCat.trim()); //push list of categories
+				  } else {
+					  //place in latest array
+					  newJson[category][i] = item;
+				  }
+			  });
+		  }
+	});
+    
 };
 
 // Search Json for key
@@ -163,4 +209,11 @@ function GetUrlValue(VarSearch){
             return KeyValuePair[1];
         }
     }
+}
+function onScanComplete(scanResults){
+	$("#search").val(scanResults);
+	search();
+}
+function scan(){
+	kiosk.startScanner();
 }

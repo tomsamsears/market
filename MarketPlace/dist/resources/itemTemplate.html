@@ -3,7 +3,7 @@
       <div>
           <img id='image' src="{{image}}" height="300" width="300" alt='Image not available'/>
           <p id='name' class='productName'>{{name}}</p>
-          <p id='retailPrice' class='regPrice'>Regular Price: {{retailPrice}}</p>
+          <p id='retailPrice' >Regular Price: <span class='regPrice'>{{retailPrice}}</span> </p>
           <!-- <p id='searsPrice' class='searsPrice'>Sears Cost: {{searsPrice}}</p> -->
           <!-- <p id='upc'>UPC: {{upc}} </p>  -->
           {{#spm}} <p class='spm' id="{{spm}}"  >{{#spm}}SPM: {{spm}} {{/spm}} </p> {{/spm}}
